@@ -1,0 +1,183 @@
+@media(max-width:768px){
+    header{
+      width: 100%;
+      height: auto;
+     }
+    header .logo{
+      margin-left: 30px;
+      padding: 20px;
+    }
+    header .nav .checkbtn{
+      display: block !important;
+      font-size: 20px;
+      cursor: pointer;
+      color: #333;
+    }
+    header .nav ul{
+      position: fixed;
+      width: 100%;
+      height: 100vh;
+      background: #f9f9ff;
+      top: 54px;
+      left: -350%;
+      transition: all 0.1s;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+    }
+    header .nav ul li{
+      line-height: 5px;
+      clear: both;
+      margin-top: 15px;
+    }
+    #check:checked ~ ul{
+      left: 0;
+    }
+    header .nav ul li a{
+      font-size: 15px;
+      text-align: center;
+    }
+    input[type="checkbox"] {
+      display: none;
+  }
+}
+@media(max-width:768px){
+  .section1 {
+    height: auto; /* Adjust height for smaller screens */
+    flex-direction: column;
+    margin-top: 20px;
+    padding: 20px;
+}
+.half1, .half2 {
+  width: 100%; /* Full width on smaller screens */
+  margin: 0;
+  padding: 0;
+}
+.half1 {
+  margin-left: 0;
+  margin-bottom: 50px; /* Reduced margin for smaller screens */
+  text-align: center; /* Center text for better appearance */
+}
+.half2 {
+  padding-right: 0;
+  text-align: center; /* Center the image for smaller screens */
+}
+.half2 img {
+  max-width: 80%; /* Reduce image size on smaller screens */
+}
+  .section2{
+    width: 100%;
+    height: auto;
+    top: 50px;
+    display: block;
+    position: relative;
+  }
+  .section2 .img2 img{
+    position: relative;
+    right: 120px;
+  }
+  .section2 div{
+    width: 100%;
+  }
+  .text2{
+    position: relative;
+    text-align: center !important;
+  }
+  .text2 h3{
+    font-size: 17px;
+    color: rgba(0, 0, 0, 0.8);
+  }
+  .text2 h1{
+    font-size: 25px;
+    color: rgba(0, 0, 0, 0.9);
+  }
+  .text2 p{
+    font-size: 15px;
+    color: rgba(0, 0, 0, 0.9);
+    margin-left: 50px !important;
+  }
+  .section3{
+    width: 100%;
+    height: auto;
+    position: relative;
+    top: 100px;
+  }
+  .firsttext > h1{
+    font-size: 30px;
+    color: rgba(0, 0, 0, 0.9);
+    }
+    .firsttext p{
+      width: 80%;
+    }
+    .ser1 div, .ser2 div{
+      left: clear;
+      position: relative;
+      width: 100%;
+      height: auto;
+    }
+    .section4 {
+      flex-direction: column;
+      height: auto;
+      position: relative;
+      width: 100%;
+      height: 1oovh;
+      top: 120px;
+
+    }
+    .section4 div {
+      width: 80%;
+      margin: 8px 0;
+    }
+    .section4 div h1{
+      font-size: 20px;
+      margin: 5px;
+    }
+    .section5 {
+      width: 100%;
+      height: auto;
+      position: relative;
+      top: 30px;
+    }
+    .section5 .text3 h1{
+      font-size: 25px;
+      margin-left: 40px;
+    }
+    .section5 .text3 p{
+      font-size: 15px;
+      margin-bottom: -40px;
+    }
+    .section6 {
+      width: 100%;
+      height: auto;
+      position: relative;
+      top: -10px;
+    }
+    .section6 .text4 h1{
+      font-size: 30px;
+    }
+    .section6 .text4 p{
+      width: 80%;
+      margin: auto;
+    }
+    .section6 .card{
+      display: block;
+      width: 100%;
+      height: 100vh;
+      position: relative;
+      left: 90px;
+    }
+    .section6 .card .card1{
+      margin-top: 50px;
+    }
+    footer{
+      width: 100%;
+      height: auto;
+      position: relative;
+      top: 78em;
+    }
+    footer .foot{
+      display: block;
+      position: relative;
+      top: 5px;
+    }
+  }

@@ -1,0 +1,466 @@
+body{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+header{
+    width: 100%;
+    height: 70px;
+    position: fixed;
+    top: 0;
+    background-color: #fff;
+    z-index: 1;
+}
+header div{
+    float: left;
+    justify-content: space-between;
+    align-items: center;
+}
+header .logo{
+    margin-left: 100px;
+    padding: 30px;
+
+}
+header .nav{
+    position: absolute;
+    top: 0;
+    right: 0;
+    margin-right: 90px;
+}
+header .nav ul{
+    list-style: none;
+}
+header .nav ul li{
+    float: left;
+    padding: 20px;
+    padding-top: 20px;
+}
+header .nav ul li a{
+    text-decoration: none;
+    color: rgba(41,41,41);
+    text-transform: uppercase;
+    font-size: 12px;
+    font-weight: bold;
+}
+header .nav ul li a:hover{
+    color: #7f97ff;
+}
+.checkbtn{
+    display: none;
+    font-size: 30px;
+    color: rgba(0, 0, 0, 0.9);
+    float: right;
+    line-height: 80px;
+    margin-right: -20px;
+    cursor: pointer;
+}
+#check{
+    display: none;
+}
+
+.section1{
+    background-color: #f9f9ff;
+    width: 100%;
+    height: 670px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 70px;
+}
+.half1, .half2 {
+    width: 50%;
+}
+.half1{
+    
+    margin-left: 150px;
+    margin-bottom: 100px;
+}
+.half2{
+    padding-right: 100px;
+   
+}
+.half2 img{
+    max-width: 100%;
+    height: auto;
+}
+.half1 h3{
+    font-family: "Poppins", sans-serif;
+    font-weight: normal;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    font-size: 15px;
+    color: rgba(10, 10, 10, 0.5);
+}
+.half1 h1{
+    font-family: "Poppins", sans-serif;
+    font-size: 35px;
+    color: rgba(10, 10, 10, 0.9);
+    margin: 20px 0;
+    text-transform: uppercase;
+}
+.half1 p{
+    font-family: "Poppins", sans-serif;
+    font-size: 16px;
+    color: rgba(0, 0, 0, 0.5);
+}
+.half1 input{
+    padding: 10px 30px;
+    background: -webkit-linear-gradient(0deg, #8490ff 0%, #62bdfc 100%);
+    outline: none; 
+    border: none;
+    font-size: 15px;
+    line-height: 20px;
+    color: #fff;
+    
+
+}
+.half1 input:hover{
+    box-shadow: 5px 10px 30px rgba(8, 9, 17, 0.5);
+    transition: all 0.3s ease 0s;
+    cursor: pointer;
+    position: relative;
+}
+
+
+.section2{
+    width: 100%;
+    height: 500px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.section2 div{
+    width: 40%;
+    margin: 0 auto;
+}
+section2 img{
+    width: 80%;
+    height: auto;
+}
+.section2 .img2{
+    padding-left: 70px;
+}
+.text2 h3{
+    text-transform: uppercase;
+    font-weight: normal;
+    color: rgba(0, 0, 0, 0.7);
+    font-size: 16px;
+}
+.text2 h1{
+    font-family: "Poppins", sans-serif;
+    text-transform: uppercase;
+    font-weight: bold;
+    font-size: 35px;
+    color: rgba(10, 10, 10, 0.9);
+}
+.text2 p{
+    font-family: "Poppins", sans-serif;
+    font-size: 16px;
+    color: rgba(0, 0, 0, 0.5);
+   
+}
+.text2 input{
+    font-size: 20px;
+    padding: 9px 9px;
+    outline: none;
+    color: white;
+    background: -webkit-linear-gradient(0deg, #8490ff 0%, #62bdfc 100%);
+    border: none;
+}
+.text2 input:hover{
+    box-shadow: 5px 10px 30px rgba(8, 9, 17, 0.5);
+    transition: all 0.3s ease 0s;
+    cursor: pointer;
+    position: relative;
+    
+}
+.section3{
+    width: 100%;
+    height: 650px;
+    margin: 0 auto;
+    text-align: center;
+}
+.firsttext h1{
+    font-size: 40px;
+    line-height: 15px;
+    color: rgba(0, 0, 0, 0.8);
+    font-family: "Poppins", sans-serif;
+}
+.firsttext p{
+    width: 80%;
+    color: rgba(0, 0, 0, 0.6);
+    margin: 0 auto;
+}
+.service{
+    width: 80%;
+    margin: 0 auto;
+    padding-top: 45px;
+}
+.ser1 ,ser2{
+    width: 100%;
+    overflow: hidden;
+}
+.ser2{
+    padding-top: 30px;
+}
+.ser1 div, .ser2 div{
+    width: 32%;
+    float: left;
+    padding: 5px;
+    margin: 0 auto;
+}
+.service i{
+    font-size: 20px;
+}
+.service h1{
+    color: rgba(0, 0, 0, 0.7);
+}
+.service p{
+    color: rgba(0, 0, 0, 0.5);
+}
+.ser1 div:hover{
+    background-color: #b7beff;
+}
+.ser1 div:hover i {
+    color: #fff;
+    }
+.ser1 div:hover h1 {
+    color: #fff;
+    }
+.ser1 div:hover p {
+color: #fff;
+}
+.ser2 div:hover{
+    background-color: #b7beff;
+}
+.ser2 div:hover i {
+    color: #fff;
+    }
+.ser2 div:hover h1 {
+    color: #fff;
+    }
+.ser2 div:hover p {
+color: #fff;
+}
+
+/* section4 start */
+.section4 {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: center;
+    width: 100%;
+    background-color: #6983f7;
+    padding: 40px 0; /* Add padding for better spacing */
+}
+
+.section4 div {
+    flex: 1 1 20%; /* Adjusts the width based on available space */
+    margin: 20px;
+    text-align: center;
+    color: #fff;
+}
+
+.section4 h1 {
+    font-size: 45px;
+    line-height: 1.2;
+    color: #fff;
+}
+
+.section4 p {
+    font-size: 18px;
+    color: #fff;
+}
+.section5{
+    width: 100%;
+    box-sizing: border-box;
+}
+.section5 .text3{
+    text-align: center;
+    padding: 100px 0;
+
+}
+.section5 .text3 h1{
+    font-size: 40px;
+    color: rgba(0, 0, 0, 0.9);
+}
+.section5 .text3 p{
+    color: rgba(0, 0, 0, 0.7);
+    margin-top: -20px;
+    margin-bottom: 30px;
+}
+.section5 .imgg{
+    width: 80%;
+    height: auto;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    margin: 0 auto;
+}
+.section5 .imgg div{
+    width: 340px;
+    height: 339px;
+    padding-bottom: 80px;
+    text-align: center;
+
+}
+.section5 .imgg h1{
+    font-size: 20px;
+    color: rgba(0, 0, 0, 0.9);
+}
+.section5 .imgg p{
+    color: rgba(0, 0, 0, 0.7);
+    line-height: 0;
+}
+.section5 figure{
+    background: -webkit-linear-gradient(0deg, #8490ff 0%, #62bdfc 100%);
+    width: 340px;
+    height: 339px;
+    margin: 0;
+    padding: 0;
+    overflow: hideen;
+    border-radius: 3%;
+}
+.section5 figure:hover img {
+    opacity: .3;
+    transition: all 0.3s ease-in-out;
+}
+
+/* pricing table start */
+.section6{
+    width: 100%;
+    height: 700px;
+    padding-top: 50px;
+   
+}
+.section6 .text4{
+    text-align: center;
+    padding: 2% 0;
+}
+.section6 .text4 h1{
+    font-size: 40px;
+    line-height: 1;
+    padding-top: 15px;
+}
+.section6 .text4 p{
+    color: rgba(0, 0, 0, 0.7);
+}
+.section6 .card {
+    width: 80%;
+    height: auto;
+    display: flex;
+    justify-content: space-between;
+    margin: 0 auto;
+    gap: 20px;
+   
+}
+.section6 .card1{
+    width: 300px;
+    background-color: rgb(249, 249, 255);
+    text-align: center;
+    border: none;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+.section .card1 h1{
+    font-size: 50px;
+    padding-top: 10px;
+}
+.section .card1 h2{
+    font-size: 30px;
+    margin: 10px 0;
+}
+.section .card1 p{
+    font-size: 40px;
+    color: #333;
+}
+.section6 .card1 .price{
+    font-size: 30px;
+    margin: 20px 0;
+}
+.section6 .card1 input{
+    outline: none;
+    background-color: #5672f0;
+    color: #fff;
+    font-size: 25px;
+    padding: 6px 60px;
+    font-weight: bold;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+}
+.section6 .card1:hover{
+    background-color: #5672f0;
+    color: #fff;
+    transition: all 0.25s ease-in;
+    transform: scale(1.05);
+}
+.section6 .card1:hover input{
+    color: rgba(0, 0, 0, 0.9);
+    background-color: #fff;
+}
+footer{
+    width: 100%;
+    height: 300px;
+    background-color: rgb(4, 9, 30);
+    color: #fff;
+    position: relative;
+    margin-top: 200px;
+    padding: 20px 0;
+}
+footer .foot{
+    width: 80%;
+    justify-content: space-around;
+    display: flex;
+    margin: 0 auto;
+    margin-top: 40px;
+    height: auto;
+}
+footer .foot .foot1 p{
+    color: rgba(255, 255, 255, 0.7);
+}
+footer .foot .foot1 input{
+    font-size: 10px;
+    border: none;
+    outline: none;
+    padding: 10px 10px 10px 10px;
+}
+footer .foot .foot1 button{
+    font-size: 10px;
+    color: white;
+    background-color: #5672f0;
+    outline: none;
+    border: none;
+    cursor: pointer;
+    padding: 8px 8px;
+    font-weight: 400;
+    text-align: center;
+}
+footer .foot .foot1 button:hover{
+    background-color: #5672f0;
+    color: #0e0d0d;
+    transition: all 0.25s ease-in;
+    transform: scale(1.05);
+}
+footer .foot .foot1 a{
+    font-size: 15px;
+    cursor: pointer;
+    padding: 2px 4px;
+}
+footer .foot .foot1 a i{
+    color: rgb(255, 251, 251);
+}
+footer .foot .foot1 a:hover .fa-facebook{
+    color: #3b5998;
+}
+footer .foot .foot1 a:hover .fa-twitter{
+    color: #00acee;
+}
+footer .foot .foot1 a:hover .fa-instagram{
+    color:#9b3f72;
+}
+footer .foot .foot1 a:hover .fa-youtube{
+    color: #FF0000;
+}
